@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func generateSlice(size int) []int {
+func GenerateSlice(size int) []int {
 	slice := make([]int, size, size)
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < size; i++ {
